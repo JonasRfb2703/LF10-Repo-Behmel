@@ -1,3 +1,5 @@
+##Den Workflow Verstehen##
+
 #NR1#
 on:
   push:                 # bei jedem Push, egal auf welchen Branch
@@ -15,7 +17,7 @@ on:
 
 
 
-# Der Workflow darf den Code nur lesen – mehr braucht er nicht.
+#Der Workflow darf den Code nur lesen – mehr braucht er nicht.#
 permissions:
   contents: read
 
